@@ -20,16 +20,18 @@
       <h1>Weather Dashboard</h1>
     </header>
     <div class="container">
-        <div class="row col-sm-4">
+        <div class="row col-md-4">
           <div class="col">
 Search for a city:            
-            <form id="form"> 
                 <input type="search" id="query" name="q" placeholder="Search...">
-                <button>Search</button>
-              </form>
+                <button id="search">Search</button>
           </div>
           <div class="col">
-            Current city:
+              <h1 id="cityName"></h1>
+              <p id="temperature"></p>
+              <p id="wind"></p>
+              <p id="humidity"></p>
+              <p id="uv-index"></p>
           </div>
         </div>
 
